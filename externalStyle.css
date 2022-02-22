@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+}
+
+#top-bar{
+    min-height:50px;
+    background-color:#2E3192;
+    color:white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.scrolled {
+    background:#DFE0FF}
+
+.top-bar-align1{
+    float: left;
+} 
+.top-bar-align2 {
+    float: right;
+}
+
+.top-bar-font{
+    font-size: 2em;
+}
+
+@media (max-width: 1199px){
+
+    .top-bar-font{
+        font-size: .8em;
+    } }
+
+    @media (max-width: 767px){
+
+        .top-bar-font{
+            font-size: 1.5em;
+            text-align: center !important;
+            display: block;
+            
+         }
+      .top-bar-align1  {
+                float: none !important;
+               }
+                .top-bar-align2  {
+                     float: none !important;}
+            }  
+            
+            @media (max-width: 767px) {
+                .top-bar-font{
+                    font-size: 1em; 
+                    }
+                  
+    
+                .top-row-padding1{
+                    padding: 6px !important;
+                      } 
+
+
+                .top-row-padding2{
+                    padding: 2px !important;
+                      } 
+            }  
+  
+
+    
+
+
+
+/* NAV SECTION */
+.navbar-light .navbar-nav .nav-link.active {
+    color: #2E3192;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ff0000;
+    
+} 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: gray;
+} 
+
+
+
+/* END OF NAV SECTION */
+
+/* start OF Galary SECTION */
+
+/* start OF services SECTION */
+
+#services{
+
+padding-top: 10px;
+padding-bottom: 20px;
+background-color: #D7D8EE;
+
+}
+
+.galary:hover{
+ 
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all .55s ease-in-out;
+}
+
+
+/* start OF About us SECTION */
+#about{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* start OF Address SECTION */
+
+
+#Address-Message{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #D7D8EE;
+
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #ff0000;
+  }
+  .form-control:-moz-placeholder {
+    color: #ff0000;
+  }
+  .form-control::-moz-placeholder {
+    color: #ff0000;
+  }
+  .form-control::placeholder {
+    color: #ff0000;
+  }
+  .form-control:-ms-input-placeholder {
+    color: #ff0000;
+  }
+
+
+  .submit-btn:hover{
+      background-color:white !important;
+      border: 2px solid #ff0000;
+      color: #2E3192 !important;
+
+  }
+
+/* start OF footer SECTION */
+
+#footer{
+    padding-top:40px ;
+    padding-bottom: 40px;
+    border-top: 3px solid #ff0000;
+}
+
+.footer-text:hover{
+    cursor: pointer;
+   color: #ff0000;
+   text-align: center;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all .55s ease-in-out;
+}
+
+#credit{
+    padding-top:10px ;
+    padding-bottom: 10px;
+    background-color: #2E3192;
+}
+
+@media (max-width:762px) {
+
+    .text-credit{
+        float: none !important;
+    }
+    .credit-text{
+        font-size: 12px !important;
+        text-align: center !important;
+        display: block;
+    }
+
+    .footer-mob{
+        
+        float: none !important;
+        
+    }
+
+    .footer-text{
+        text-align: center!important;
+        margin-left: 0px !important;
+    }
+
+    .icon-col{
+        float: none !important;
+    }
+    .footer-text2{
+        text-align: center!important;
+        margin-left: 0px !important;
+    }
+
+    .footer-text23{
+        text-align: center!important;
+        margin-left: 0px !important;
+       
+        
+    }
+
+    .icon-group{
+        text-align: center!important;
+    
+    }
+    
+}
+
+
+
+
+
+
